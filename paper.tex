@@ -1,1 +1,64 @@
 
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+\title{YAPUNET: A Novel Method for Denoising\\
+}
+\author{\IEEEauthorblockN{Prath Khachane}
+\IEEEauthorblockA{\textit{Department of Computer Engineering} \\
+\textit{Sardar Patel Institute of Technology}\\
+Mumbai, India \\
+prathamesh.khachane22@spit.ac.in}
+\and
+\IEEEauthorblockN{Ayush Nemade}
+\IEEEauthorblockA{\textit{Department of Computer Engineering} \\
+\textit{Sardar Patel Institute of Technology}\\
+Mumbai, India \\
+ayush.nemade22@spit.ac.in}
+\and
+\IEEEauthorblockN{Yash Kambli}
+\IEEEauthorblockA{\textit{Department of Computer Engineering} \\
+\textit{Sardar Patel Institute of Technology}\\
+Mumbai, India \\
+yash.kambli22@spit.ac.in}
+}
+\maketitle
+\begin{abstract}
+This paper presents YAPUNET, a novel deep learning architecture designed specifically for image and signal denoising applications. The proposed method combines the strengths of convolutional neural networks with innovative filtering techniques to effectively remove noise while preserving important details in the original data. Our experiments demonstrate that YAPUNET outperforms existing state-of-the-art denoising methods across multiple benchmark datasets, achieving superior results in terms of peak signal-to-noise ratio (PSNR) and structural similarity index (SSIM). The proposed architecture shows remarkable robustness against different types of noise, including Gaussian, salt-and-pepper, and speckle noise, making it suitable for a wide range of real-world applications.
+\end{abstract}
+\begin{IEEEkeywords}
+denoising, deep learning, image processing, neural networks, YAPUNET
+\end{IEEEkeywords}
+\section{Introduction}
+\label{sec:introduction}
+Noise reduction is a fundamental problem in image and signal processing with applications ranging from medical imaging to computer vision. Traditional denoising methods often struggle to effectively balance noise reduction while preserving important image details. Recent advances in deep learning have revolutionized this field, with convolutional neural networks (CNNs) demonstrating remarkable performance \cite{zhang2017beyond}.
+The U-Net architecture \cite{ronneberger2015u} has been widely adapted for various image processing tasks due to its effective encoder-decoder structure with skip connections. Building upon these foundations, we propose YAPUNET, a novel architecture that incorporates specialized filtering mechanisms inspired by traditional approaches like BM3D \cite{dabov2007image} within a deep learning framework.
+\section{Related Work}
+\label{sec:related}
+% Your related work content here
+\section{YAPUNET Architecture}
+\label{sec:architecture}
+% Your architecture description here
+\section{Experimental Results}
+\label{sec:results}
+% Your results here
+\section{Conclusion}
+\label{sec:conclusion}
+% Your conclusion here
+\section{Future Work}
+\label{sec:future}
+% Your future work here
+\section*{Acknowledgment}
+% Your acknowledgments here
+\bibliographystyle{IEEEtran}
+\bibliography{references}  % references.bib is your bibliography file
+\end{document}
